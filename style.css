@@ -1,0 +1,42 @@
+.main-container{
+    height: 100vh;
+    background-color: pink;
+}
+
+.container-asia{
+    width: 50%;
+    height: 50%;
+}
+
+.slider, .items{
+    height: 100%;
+}
+
+.items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.button{
+    position: absolute;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    right: 50%;
+    background-color: white;
+    text-align: center;
+}
+
+.sotto{
+    bottom: 0%;
+}
+
+.sopra{
+    top: 0%;
+}
+
+.hide{
+    display: none;
+}
