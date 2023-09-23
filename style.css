@@ -1,42 +1,41 @@
 .main-container{
-    height: 100vh;
-    background-color: pink;
+  height: 100vh;
 }
 
 .container-asia{
-    width: 50%;
-    height: 50%;
+  width: 50%;
+  height: 50%;
+  background-color: pink;
+  position: relative;
 }
 
-.slider, .items{
-    height: 100%;
-}
-
-.items img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.slide{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .button{
-    position: absolute;
-    cursor: pointer;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    right: 50%;
-    background-color: white;
-    text-align: center;
+  position: absolute;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  right: 50%;
+  background-color: white;
+  text-align: center;
 }
 
 .sotto{
-    bottom: 0%;
+  position: absolute;
+  bottom: 0;
 }
 
 .sopra{
-    top: 0%;
+  position: absolute;
+  top: 0;
 }
 
 .hide{
-    display: none;
+  display: none;
 }
