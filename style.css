@@ -1,41 +1,50 @@
-.main-container{
+body{
   height: 100vh;
 }
 
-.container-asia{
-  width: 50%;
-  height: 50%;
-  background-color: pink;
-  position: relative;
+.sliders{
+  width: 60%;
+  height: 55%;
 }
 
-.slide{
+#principale{
+  height: 100%;
+  width: 80%;
+}
+
+#secondarie{
+  height: 100%;
+  width: 20%;
+}
+
+.principale-img{
+  height: 100%;
   width: 100%;
-  height: 300px;
-  object-fit: cover;
-}
-
-.button{
   position: absolute;
-  cursor: pointer;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  right: 50%;
-  background-color: white;
-  text-align: center;
+  visibility: hidden;
 }
 
-.sotto{
+.secondarie-img{
+  height: 20%;
+  opacity: 50%;
+}
+
+.active {
+  visibility: visible;
+}
+
+.selected {
+  opacity: 100%;
+  border: 3px solid white;
+}
+
+.info{
   position: absolute;
   bottom: 0;
-}
-
-.sopra{
-  position: absolute;
-  top: 0;
-}
-
-.hide{
-  display: none;
+  width: 100%;
+  height: 25%;
+  z-index: 1000;
+  color: white;
+  padding: 0px 16px;
+  text-align: end;
 }
